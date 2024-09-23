@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./MockJavaScriptProject.css">
+    <title>Document</title>
+</head>
+<body>   
+      <section class="sectionmain">
+        <center><h1 style="font-weight: 900; font-size: 30px;">Stock Average Calculator</h1></center>
+        <article class="articlefirst">
+          <div class="line"></div>
+          <center><h1 style="background-color: yellow;">First BUY</h1></center>
+        
+      <center>  <h1><label for="" >Previous Quantity</label></h1>
+        <input type="number" min="1" id="qnty" placeholder="Old Quantity">
+  
+        <h1><label for="">Previous Price</label></h1>
+        <input type="number" min="1" id="price" placeholder="Old Price">
+      
+       
+        <center><h1 style="background-color: yellow;">Second BUY</h1></center>
+
+      
+        <h1><label for="">New Quantity</label></h1>
+        <input type="number" min="1" id="newqnty" placeholder="New Quantity">
+          
+        <h1><label for="">New Price</label></h1>
+        <input type="number" min="1" id="newprice" placeholder="New Price"></center>
+
+    </article>
+      </section>
+
+      <section class="secondsection">
+        <center>
+        <p>Total Quantity - <span id="totalqty" >0 Qty</span></p> <br>
+        <p>Average Price - <span id="averageprice" >Rs.0</span></p> <br>
+        <p>Total Invested Amount - <span id="totalinvestedamount" >Rs.0</span></p><br> <br></center>
+
+
+
+         <button id="calculatebtn">Calculate</button>
+         <button id="clearbtn">Clear</button>
+      </section>
+   <script src="./MockJavaScriptProject.js"></script>
+</body>
+</html>
